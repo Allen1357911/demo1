@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main()
+
+{
+    int a, b;
+    printf("请输入金额（元）");
+    scanf("%d %d",&a,&b);
+    printf("%d+%d=%d",a,b,a+b);
+  
+    
+    return 0;
+}
